@@ -1,0 +1,157 @@
+p {
+  color: black;
+  padding: 0.5em;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+body {
+  z-index: 1;
+  margin: 0px;
+}
+
+body nav {
+  z-index: 2;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+  background-color: #000000;
+}
+
+body nav #ownerSignin, body nav #ownerLogin, body nav #ownerLogout, body nav #ownerUpdate {
+  float: right !important;
+}
+
+body nav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+body nav a:hover {
+  background: #6666667c;
+}
+
+body header {
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  background-image: url("img/bar2.jpg");
+  height: 600px;
+  font-family: cursive;
+  color: orange;
+  font-size: 30px;
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
+}
+
+body header .center {
+  position: relative;
+  top: 50%;
+  text-align: center;
+  font-size: 80px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin: 0;
+  text-shadow: 3px 5px red;
+}
+
+body header p {
+  color: orange;
+  text-shadow: 1px 3px red;
+  margin: 0;
+  bottom: 5px;
+  position: absolute;
+}
+
+body header .bottom-left {
+  left: 5px;
+}
+
+body header .bottom-right {
+  right: 5px;
+}
+
+body main #about div {
+  text-align: center;
+  padding: 4em 0;
+}
+
+body main #about div h1 {
+  background-color: black;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #ffffff;
+  padding: 0.5em;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+body main #about #grillbyImage {
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  -webkit-filter: grayscale(70%) drop-shadow(8px 8px 10px black);
+          filter: grayscale(70%) drop-shadow(8px 8px 10px black);
+}
+
+body main #menu div {
+  text-align: center;
+  padding: 4em 0;
+  border: 1px solid black;
+  letter-spacing: 3px;
+}
+
+body main #menu div h1 {
+  background-color: black;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #ffffff;
+  padding: 0.5em;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+}
+
+body main #menu #barImage {
+  display: block;
+  margin: 0 auto;
+  width: 900px;
+  -webkit-filter: grayscale(70%) drop-shadow(8px 8px 10px black);
+          filter: grayscale(70%) drop-shadow(8px 8px 10px black);
+  padding: 5em;
+}
+
+body main #where div {
+  text-align: center;
+  padding: 4em 0;
+}
+
+body main #where div h1 {
+  background-color: black;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #ffffff;
+  padding: 0.5em;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+body main #where #mapImage {
+  display: block;
+  margin: 0 auto;
+  width: 1400px;
+  -webkit-filter: grayscale(70%) drop-shadow(8px 8px 10px black);
+          filter: grayscale(70%) drop-shadow(8px 8px 10px black);
+}
+/*# sourceMappingURL=style.css.map */

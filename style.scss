@@ -1,0 +1,145 @@
+
+p {
+  color: black;
+  padding: 0.5em;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+
+body {
+  z-index: 1;
+  margin: 0px;
+
+  nav {
+    z-index: 2;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #000000;
+
+    #ownerSignin, #ownerLogin, #ownerLogout, #ownerUpdate {
+      float: right !important;
+    }
+
+    a {
+      float: left;
+      display: block;
+      color: #ffffff;
+      text-align: center;
+      padding: 30px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    a:hover {background: #6666667c;}
+  }
+   
+  header {
+    position: relative;
+    background-position: 50%;
+    background-size: cover;
+    background-image: url("img/bar2.jpg");
+    height: 600px;
+    font-family: cursive;
+    color: orange;
+    font-size: 30px;
+    filter: grayscale(70%);
+
+    .center {
+      position: relative;
+      top: 50%;
+      text-align: center;
+      font-size: 80px;
+      transform: translateY(-50%);
+      margin: 0;
+      text-shadow: 3px 5px red;
+    }
+    p {
+      color: orange;
+      text-shadow: 1px 3px red;
+      margin: 0;
+      bottom: 5px;
+      position: absolute;
+
+    }
+    .bottom-left {
+      left: 5px;
+    }
+  
+    .bottom-right {
+      right: 5px;
+    }
+  }
+
+  main {
+    #about {
+      div {
+        text-align: center;
+        padding: 4em 0;
+        h1 {
+          background-color: black;
+          display: inline-flex;
+          color: #ffffff;
+          padding: 0.5em;
+          font-family: "Segoe UI", Arial, sans-serif;
+          font-weight: 400;
+          letter-spacing: 3px;
+        }
+      }
+      
+      #grillbyImage {
+        display: block;
+        margin: 0 auto;
+        width: 700px;
+        filter: grayscale(70%) drop-shadow(8px 8px 10px black);
+      }
+    }
+    #menu {
+      div {
+        text-align: center;
+        padding: 4em 0;
+        border: 1px solid black;
+        h1 {
+          background-color: black;
+          display: inline-flex;
+          color: #ffffff;
+          padding: 0.5em;
+          font-family: "Segoe UI", Arial, sans-serif;
+          font-weight: 400;
+        }  letter-spacing: 3px; 
+      }
+
+      #barImage {
+        display: block;
+        margin: 0 auto;
+        width: 900px;
+        filter: grayscale(70%) drop-shadow(8px 8px 10px black);
+        padding: 5em;
+      }
+    }
+    #where {
+      div {
+        text-align: center;
+        padding: 4em 0;
+        h1 {
+          background-color: black;
+          display: inline-flex;
+          color: #ffffff;
+          padding: 0.5em;
+          font-family: "Segoe UI", Arial, sans-serif;
+          font-weight: 400;
+          letter-spacing: 3px;
+        } 
+      }
+
+      #mapImage {
+        display: block;
+        margin: 0 auto;
+        width: 1400px;
+        filter: grayscale(70%) drop-shadow(8px 8px 10px black);
+      }
+    }
+  }
+}
+
